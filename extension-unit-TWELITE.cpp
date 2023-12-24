@@ -11,8 +11,8 @@ void check_button();
 
 //  ID -> 8, state -> 1, msg = id + state
 const int MSG_LEN = 10;
-const char MSG1[] = "testtest1";
-const char MSG0[] = "testtest0";
+const char MSG1[] = "test00011";
+const char MSG0[] = "test00010";
 
 bool state;
 
@@ -56,7 +56,7 @@ void setup() {
 /*** begin procedure (called once at boot) */
 void begin() {
 	Serial << "..begin (run once at boot)" << crlf;
-	SleepNow();
+	// __________SleepNow();
 }
 
 /*** wake up procedure */
@@ -105,9 +105,11 @@ void loop() {
 				// Serial << 'check button in tx'<< crlf;
 				check_button();
 				if(state){
-					txreq_stat = vTransmit(MSG1);
-				} else {
 					txreq_stat = vTransmit(MSG0);
+					Serial << MSG0 << crlf;
+				} else {
+					txreq_stat = vTransmit(MSG1);
+					Serial << MSG1 << crlf;
 				}
 				if (txreq_stat) {
 					Serial << int(millis()) << ":tx request success! (" << int(txreq_stat.get_value()) << ')' << crlf;

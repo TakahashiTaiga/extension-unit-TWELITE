@@ -1,11 +1,11 @@
 In file included from /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/_tweltite.hpp:44:0,
                  from /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/twelite.hpp:6,
                  from /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/TWELITE:3,
-                 from /Users/myu210/Desktop/research_programs/research_child_app/Slp_Wk_and_Tx.cpp:2:
+                 from /Users/myu210/Desktop/research_programs/in_using/research_child_app_test0001/Slp_Wk_and_Tx.cpp:2:
 /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_appdefs.hpp: In destructor 'mwx::L1::appdefs_virt::~appdefs_virt()':
 /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_appdefs.hpp:45:23: warning: deleting 'void*' is undefined [enabled by default]
 In file included from /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/NWK_SIMPLE:4:0,
-                 from /Users/myu210/Desktop/research_programs/research_child_app/Slp_Wk_and_Tx.cpp:3:
+                 from /Users/myu210/Desktop/research_programs/in_using/research_child_app_test0001/Slp_Wk_and_Tx.cpp:3:
 /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/networks/mwx_nwk_simple.hpp: In member function 'mwx::L1::NwkSimple& mwx::L1::NwkSimple::operator<<(mwx::L1::NwkSimple::receive_nwkless_pkt&&)':
 /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/networks/mwx_nwk_simple.hpp:193:82: warning: no return statement in function returning non-void [-Wreturn-type]
 In file included from /Users/myu210/Desktop/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_appcore.cpp:27:0:

@@ -17,7 +17,7 @@ const uint8_t DEVICE_ID = 0xFE; // LOGICAL ID (0xFE: Anonymous, 1..0xEF: Child D
 #define FOURCC "child01"
 
 // Sleep Dur
-const uint32_t SLEEP_DUR = 5000; // every 2000ms
+const uint32_t SLEEP_DUR = 60 * 60 * 1000; // 1h 
 const uint16_t SLEEP_DUR_TERMOR = 0; // SLEEP_DUR +/- 200
 
 // Application control
